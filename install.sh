@@ -655,47 +655,39 @@ case $option in
 	7)        
             clear
             figlet -c $Name
-            echo "<----------------------------menu-------------------------->"
-            echo "1)  Shellphish"
-            echo "2)  HiddenEye"
-            echo "3)  SocialFish"
-            echo "4)  Zphisher"
-            echo "5)  Blackeye"
+            echo "<----------------------------menu-------------------------->
+            echo "1)  HiddenEye"
+            echo "2)  SocialFish"
+            echo "3)  Zphisher"
+            echo "4)  Blackeye"
             echo "A)  Press A for All"
             echo "B)  Press B for Back" 
             echo "X)  For Exit"
             echo "<-------------------------------------------------------------->"
             read -p "Enter an option to continue: " pchoice
             case $pchoice in
-                    1)      
-                    	    clear
-                    	    figlet -c $Name
-                            echo "<-------------------------------------------------------------------->"
-                            echo "<-----------------Installing  Shellphish----------------------------->"
-                            git clone https://github.com/rorizam323/shellphish.git
-                            ;;
-                    2)
+                    1)
                     	    clear
                     	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<---------------------Installing HiddenEye--------------------------->"
                             git clone https://github.com/DarkSecDevelopers/HiddenEye.git
                             ;;
-                    3)
+                    2)
                     	    clear
                     	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing SocialFish------------------------>"
                             git clone https://github.com/An0nUD4Y/SocialFish.git
                             ;;     
-                    4)
+                    3)
                     	    clear
                     	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing Zphisher-------------------------->"
                             git clone https://github.com/htr-tech/zphisher.git
                             ;;  
-                    5)
+                    4)
                             clear
                     	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
@@ -708,7 +700,6 @@ case $option in
                     	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<---------------------Installing All Tools--------------------------->"        
-                            git clone https://github.com/rorizam323/shellphish.git
                             git clone https://github.com/DarkSecDevelopers/HiddenEye.git  
                             git clone https://github.com/An0nUD4Y/SocialFish.git 
                             git clone https://github.com/htr-tech/zphisher.git
@@ -721,7 +712,7 @@ case $option in
                             exit
                             ;;
                     *)      
-                            echo "i don't understand you"   
+                            echo "Good Bye"   
                             exit 
                             ;;
 			esac
@@ -910,7 +901,6 @@ clear
 figlet -c $Name
 echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 echo "<~~~~~~~~~~~~~~Installing All tools~~~~~~~~~~~~~~>"
-git clone https://github.com/rorizam323/shellphish.git
 git clone https://github.com/DarkSecDevelopers/HiddenEye.git  
 git clone https://github.com/An0nUD4Y/SocialFish.git 
 git clone https://github.com/htr-tech/zphisher.git
