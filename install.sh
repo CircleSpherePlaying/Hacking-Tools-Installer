@@ -655,7 +655,7 @@ case $option in
 	7)        
             clear
             figlet -c $Name
-            echo "<----------------------------menu-------------------------->
+            echo "<----------------------------menu-------------------------->"
             echo "1)  HiddenEye"
             echo "2)  SocialFish"
             echo "3)  Zphisher"
@@ -664,7 +664,7 @@ case $option in
             echo "B)  Press B for Back" 
             echo "X)  For Exit"
             echo "<-------------------------------------------------------------->"
-            read -p "Enter an option to continue: " pchoice
+            read -p "Enter an option to continue: "  pchoice
             case $pchoice in
                     1)
                     	    clear
