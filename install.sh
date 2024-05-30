@@ -1,31 +1,32 @@
 #!/usr/bin/bash
+Name="Hacking Tools Installer"
 clear
-figlet -c "Team Venom"
+figlet -c $Name
 echo "Loading.."
 echo "████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 20%	"
 sleep 1
 clear
-figlet -c "Team Venom"
+figlet -c $Name
 echo "Loading..."
 echo "████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 40%	"
 sleep 1
 clear
-figlet -c "Team Venom"
+figlet -c $Name
 echo "Loading..."
 echo "████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 60%	"
 sleep 1
 clear
-figlet -c "Team Venom"
+figlet -c $Name
 echo "Loading...."
 echo "████████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░ 80%	"
 sleep 1
 clear
-figlet -c "Team Venom"
+figlet -c $Name
 echo "Loading....."
 echo "████████████████████████████████████████████████████████████████████████████████ 100%     "
 sleep 1
 clear
-figlet -c "Team Venom"
+figlet -c $Name
 echo -e "\e[1;31m <--------------------------Tool Categories---------------------------------> \e[0m"
 echo -e "\e[1;33m 1) Information Gathering \e[0m"
 echo -e "\e[1;33m 2) Vulnerabilty Analysis \e[0m"
@@ -43,7 +44,7 @@ read -p "Enter an option to continue: " option
 case $option in
 	1)
 		clear 
-		figlet -c "Team Venom"
+		figlet -c $Name
 		echo "<~~~~~~~~~~~~~~~~~~~~~Menu~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 		echo "1) Lazy Recon"
 		echo "2) Red Hawk"
@@ -63,97 +64,97 @@ case $option in
 		case $ichoice in
 			1)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing LazyRecon~~~~~~~~~~~>"
 
-				git clone https://github.com/nahamsec/lazyrecon
+				git clone https://github.com/nahamsec/lazyrecon.git
 				;;
 			2)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing Red Hawk~~~~~~~~~~~>"
 
-				git clone https://github.com/Tuhinshubhra/RED_HAWK
+				git clone https://github.com/Tuhinshubhra/RED_HAWK.git
 				;;
 			3)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~Installing Th3inspector~~~~~~~~~~>"
 
-				git clone https://github.com/Moham3dRiahi/Th3inspector
+				git clone https://github.com/Moham3dRiahi/Th3inspector.git
 				;;
 			4)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~Installing WPGrabINfo~~~~~~~~~~~>"	
-				git clone https://github.com/Moham3dRiahi/WPGrabInfo
+				git clone https://github.com/Moham3dRiahi/WPGrabInfo.git
 				;;
 			5)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~Installing BillCipher~~~~~~~~~~~>"
-				git clone https://github.com/GitHackTools/BillCipher
+				git clone https://github.com/GitHackTools/BillCipher.git
 				;;
 			6)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing Gasmask~~~~~~~~~~~~~>"
-				git clone https://github.com/twelvesec/gasmask
+				git clone https://github.com/twelvesec/gasmask.git
 				;;
 			7)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing WebKiller~~~~~~~~~~~>"
-				git clone https://github.com/ultrasecurity/webkiller
+				git clone https://github.com/ultrasecurity/webkiller.git
 				;;
 			8)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing FBI~~~~~~~~~~~>"
 				
-				git clone https://github.com/KnightSec-Official/FBI
+				git clone https://github.com/KnightSec-Official/FBI.git
 				;;
 
 			9)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing D-Tect~~~~~~~~~~~~~~>"	
-				git clone https://github.com/hudacbr/D-TECT
+				git clone https://github.com/hudacbr/D-TECT.git
 				;;
 			10)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing UserRecon~~~~~~~~~~~>"
-				git clone https://github.com/issamelferkh/userrecon
+				git clone https://github.com/issamelferkh/userrecon.git
 				;;
 			A)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~Installing All at once~~~~~~~~~~>"
 
-				git clone https://github.com/nahamsec/lazyrecon
-				git clone https://github.com/Tuhinshubhra/RED_HAWK
-				git clone https://github.com/Moham3dRiahi/Th3inspector
-				git clone https://github.com/Moham3dRiahi/WPGrabInfo
-				git clone https://github.com/GitHackTools/BillCipher
-				git clone https://github.com/twelvesec/gasmask
-				git clone https://github.com/ultrasecurity/webkiller
-				git clone https://github.com/KnightSec-Official/FBI
-				git clone https://github.com/hudacbr/D-TECT
-				git clone https://github.com/issamelferkh/userrecon
+				git clone https://github.com/nahamsec/lazyrecon.git
+				git clone https://github.com/Tuhinshubhra/RED_HAWK.git
+				git clone https://github.com/Moham3dRiahi/Th3inspector.git
+				git clone https://github.com/Moham3dRiahi/WPGrabInfo.git
+				git clone https://github.com/GitHackTools/BillCipher.git
+				git clone https://github.com/twelvesec/gasmask.git
+				git clone https://github.com/ultrasecurity/webkiller.git
+				git clone https://github.com/KnightSec-Official/FBI.git
+				git clone https://github.com/hudacbr/D-TECT.git
+				git clone https://github.com/issamelferkh/userrecon.git
 				;;
 			B) 
-				bash venom.sh
+				bash install.sh
 				;;
 			X)
 				exit
@@ -165,7 +166,7 @@ case $option in
 		;;
 	2)
 		clear
-		figlet -c "Team Venom"
+		figlet -c $Name
 		echo "<~~~~~~~~~~~~~~~~~~~~Menu~~~~~~~~~~~~~~~~~~~~>"
 		echo "1) OwScan"
 		echo "2) CMS Map"
@@ -185,92 +186,92 @@ case $option in
 		case $vchoice in
 			1)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing OwScan~~~~~~~~~~~>"
-				git clone https://github.com/Gameye98/OWScan
+				git clone https://github.com/Gameye98/OWScan.git
 				;;
 			2)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing CMS Map~~~~~~~~~~~~~>"
-				git clone https://github.com/Dionach/CMSmap
+				git clone https://github.com/Dionach/CMSmap.git
 				;;
 			3)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing ClickJacking~~~~~~~~>"
-				git clone https://github.com/D4Vinci/Clickjacking-Tester
+				git clone https://github.com/D4Vinci/Clickjacking-Tester.git
 				;;
 			4)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing TM-Scanner~~~~~~~~~~>"
-				git clone https://github.com/TechnicalMujeeb/TM-scanner
+				git clone https://github.com/TechnicalMujeeb/TM-scanner.git
 				;;
 			5)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing AndroBug~~~~~~~~~~~>"
-				git clone https://github.com/AndroBugs/AndroBugs_Framework
+				git clone https://github.com/AndroBugs/AndroBugs_Framework.git
 				;;
 			6)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing SQLI Scan~~~~~~~~~~~>"
-				git clone https://github.com/bambish/ScanQLi
+				git clone https://github.com/bambish/ScanQLi.git
 				;;
 			7)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing Commix~~~~~~~~~~~>"
-				git clone https://github.com/commixproject/commix
+				git clone https://github.com/commixproject/commix.git
 				;;
 			8)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing WpSEku~~~~~~~~~~~>"
-				git clone https://github.com/m4ll0k/WPSeku 
+				git clone https://github.com/m4ll0k/WPSeku.git
 				;;
 			9)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing RouterSploit~~~~~~~~>"
-				git clone https://github.com/threat9/routersploit
+				git clone https://github.com/threat9/routersploit.git
 				;;
 			10)
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing Nikto Web~~~~~~~~~~~>"
-				git clone https://github.com/sullo/nikto
+				git clone https://github.com/sullo/nikto.git
 				;;
 			A) 
 				clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing All Tools~~~~~~~~~~~>"
-				git clone https://github.com/Gameye98/OWScan
-				git clone https://github.com/AndroBugs/AndroBugs_Framework
-				git clone https://github.com/TechnicalMujeeb/TM-scanner
-				git clone https://github.com/D4Vinci/Clickjacking-Tester
-				git clone https://github.com/Dionach/CMSmap
-				git clone https://github.com/bambish/ScanQLi
-				git clone https://github.com/commixproject/commix
-				git clone https://github.com/m4ll0k/WPSeku
-				git clone https://github.com/threat9/routersploit
-				git clone https://github.com/sullo/nikto
+				git clone https://github.com/Gameye98/OWScan.git
+				git clone https://github.com/AndroBugs/AndroBugs_Framework.git
+				git clone https://github.com/TechnicalMujeeb/TM-scanner.git
+				git clone https://github.com/D4Vinci/Clickjacking-Tester.git
+				git clone https://github.com/Dionach/CMSmap.git
+				git clone https://github.com/bambish/ScanQLi.git
+				git clone https://github.com/commixproject/commix.git
+				git clone https://github.com/m4ll0k/WPSeku.git
+				git clone https://github.com/threat9/routersploit.git
+				git clone https://github.com/sullo/nikto.git
 				;;
 			B)
-				bash venom.sh
+				bash install.sh
 				;;
 			X)
 				exit
@@ -283,7 +284,7 @@ case $option in
 		;;
 	3)        
         	    clear
-                    figlet -c "Team Venom"
+                    figlet -c $Name
            	    echo "<----------------------------menu-------------------------->"
             	    echo "1)  A-RAT Exploit"
             	    echo "2)  Golden-Eye"
@@ -303,93 +304,93 @@ case $option in
 		    case $echoice in
 		            1)      
 		                    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<------------------Installing  A-RAT Exploit------------------------->"
-		                    git clone https://github.com/AhMyth/AhMyth-Android-RAT
+		                    git clone https://github.com/AhMyth/AhMyth-Android-RAT.git
 		                    ;;
 		            2)
 		                    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<---------------------Installing  Golden-Eye------------------------->"
-		                    git clone https://github.com/jseidl/GoldenEye
+		                    git clone https://github.com/jseidl/GoldenEye.git
 		                    ;;
 		            3)
 		            	clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<-------------------Installing Hulk[Dos Tool------------------------->"
-		                    git clone https://github.com/grafov/hulk
+		                    git clone https://github.com/grafov/hulk.git
 		                    ;;
 		           
 		            4)      
 		            		clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<---------------------Installing CMSeek------------------------------>"       
-		                    git clone https://github.com/Tuhinshubhra/CMSeeK                         
+		                    git clone https://github.com/Tuhinshubhra/CMSeeK.git                         
 		                    ;;
 		            5)     
 		            	clear
-                    	    figlet -c "Team Venom" 
+                    	    figlet -c $Name 
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<-----------------Installing MetaSploit Framework-------------------->"       
-		                    git clone https://github.com/rapid7/metasploit-framework               
+		                    git clone https://github.com/rapid7/metasploit-framework.git               
 		                    ;;               
 		            6)      
 		                   clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<---------------------Installing TM-Venom---------------------------->"       
-		                    git clone https://github.com/TechnicalMujeeb/tmvenom               
+		                    git clone https://github.com/TechnicalMujeeb/tmvenom.git               
 		                    ;;        
 		            7)      
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<-----------------Installing Zarp-Local Network Tool----------------->"       
-		                    git clone https://github.com/hatRiot/zarp          
+		                    git clone https://github.com/hatRiot/zarp.git          
 		                    ;;   
 		            8)      
 		            	clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<---------------------Installing AutoSploit-------------------------->"       
-		                    git clone https://github.com/NullArray/AutoSploit                     
+		                    git clone https://github.com/NullArray/AutoSploit.git                     
 		                    ;;    
 		            9)      
 		            		clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<---------------------Installing EggShell---------------------------->"       
-		                    git clone https://github.com/neoneggplant/EggShell                    
+		                    git clone https://github.com/neoneggplant/EggShell.git                    
 		                    ;;   
 		            10)      
 		                    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<---------------------Installing  Brutal----------------------------->"       
-		                    git clone https://github.com/Screetsec/Brutal                         
+		                    git clone https://github.com/Screetsec/Brutal.git                         
 		                    ;;            
 		            A)      
 		                    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<---------------------Installing All Tools--------------------------->"        
-		                    git clone https://github.com/AhMyth/AhMyth-Android-RAT    
-		                    git clone https://github.com/jseidl/GoldenEye       
-		                    git clone https://github.com/grafov/hulk           
-		                    git clone https://github.com/Tuhinshubhra/CMSeeK            
-		                    git clone https://github.com/rapid7/metasploit-framework            
-		                    git clone https://github.com/TechnicalMujeeb/tmvenom           
-		                    git clone https://github.com/hatRiot/zarp            
-		                    git clone https://github.com/NullArray/AutoSploit
-		                    git clone https://github.com/neoneggplant/EggShell              
-		                    git clone https://github.com/Screetsec/Brutal           
+		                    git clone https://github.com/AhMyth/AhMyth-Android-RAT.git    
+		                    git clone https://github.com/jseidl/GoldenEye.git       
+		                    git clone https://github.com/grafov/hulk.git           
+		                    git clone https://github.com/Tuhinshubhra/CMSeeK.git            
+		                    git clone https://github.com/rapid7/metasploit-framework.git            
+		                    git clone https://github.com/TechnicalMujeeb/tmvenom.git           
+		                    git clone https://github.com/hatRiot/zarp.git            
+		                    git clone https://github.com/NullArray/AutoSploit.git
+		                    git clone https://github.com/neoneggplant/EggShell.git              
+		                    git clone https://github.com/Screetsec/Brutal.git           
 		                           
 		                                             
 		                    ;;     
 		            B)     
-		                    bash venom.sh
+		                    bash install.sh
 		                    ;;
 		            X)      
 		                    exit
@@ -402,7 +403,7 @@ case $option in
 		   ;;
 	4)
 		    clear
-		    figlet -c "Team Venom"
+		    figlet -c $Name
 		    echo "<----------------------------menu-------------------------->"  
 		    echo "1) Setoolkit "
 		    echo "2) SSLtrip"
@@ -417,56 +418,56 @@ case $option in
 		    case $schoice in
 		            1)     
 		            	    clear
-                    	    figlet -c "Team Venom" 
+                    	    figlet -c $Name 
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<------------------Installing Setoolkit------------------------->"
-		                    git clone https://github.com/trustedsec/social-engineer-toolkit
+		                    git clone https://github.com/trustedsec/social-engineer-toolkit.git
 		                    ;;
 		            2)
 		            	   clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<---------------------Installing SSLtrip------------------------->"
-		                    git clone https://github.com/moxie0/sslstrip
+		                    git clone https://github.com/moxie0/sslstrip.git
 		                    ;;
 		            3)
 		            	    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<-------------------Installing pyPISHER------------------------->"
-		                    git clone https://github.com/sneakerhax/PyPhisher
+		                    git clone https://github.com/sneakerhax/PyPhisher.git
 		                    ;;
 		           
 		            4)      
 		            	    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<---------------------Installing SMTP Mailer----------------------------->"       
-		                    git clone https://github.com/halojoy/PHP-SMTP-Mailer             
+		                    git clone https://github.com/halojoy/PHP-SMTP-Mailer.git             
 		                    ;;
 		            5)     
 		            
 		                    clear
-                    	    figlet -c "Team Venom" 
+                    	    figlet -c $Name 
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<---------------------Installing  Python Packet Sniffer------_----------->"       
-		                    git clone https://github.com/buckyroberts/Python-Packet-Sniffer           
+		                    git clone https://github.com/buckyroberts/Python-Packet-Sniffer.git           
 		                    ;;  
 		          
 		            A)      
 		            	    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<---------------------Installing All Tools--------------------------->"        
-		                    git clone https://github.com/trustedsec/social-engineer-toolkit
-		                    git clone https://github.com/moxie0/sslstrip     
-		                    git clone https://github.com/sneakerhax/PyPhisher
-		                    git clone https://github.com/halojoy/PHP-SMTP-Mailer           
-		                    git clone https://github.com/buckyroberts/Python-Packet-Sniffer       
+		                    git clone https://github.com/trustedsec/social-engineer-toolkit.git
+		                    git clone https://github.com/moxie0/sslstrip.git     
+		                    git clone https://github.com/sneakerhax/PyPhisher.git
+		                    git clone https://github.com/halojoy/PHP-SMTP-Mailer.git           
+		                    git clone https://github.com/buckyroberts/Python-Packet-Sniffer.git       
 		                                             
 		                    ;;     
 		            B)     
-		                    bash venom.sh
+		                    bash install.sh
 		                    ;;
 		            X)      
 		                    exit
@@ -480,7 +481,7 @@ case $option in
 			    ;;
 		5)      
 		    clear
-		    figlet -c "Team Venom"
+		    figlet -c $Name
 		    echo "<----------------------------menu-------------------------->"
 		    echo "1)  AndroRat"
 		    echo "2)  Csploit"
@@ -493,36 +494,36 @@ case $option in
 		    case $achoice in
 		            1)      
 		            	clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<---------------------Installing  AndroRat--------------------------->"
-		                    git clone https://github.com/warecrer/AndroRAT
+		                    git clone https://github.com/warecrer/AndroRAT.git
 		                    ;;
 		            2)
 		                    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<---------------------Installing Csploit----------------------------->"
-		                    git clone https://github.com/cSploit/android
+		                    git clone https://github.com/cSploit/android.git
 		                    ;;
 		            3)
 		                    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
 		                    echo "<-------------------------------------------------------------------->"
 		                    echo "<-----------------------Installing TheFatRat------------------------->"
-		                    git clone https://github.com/Exploit-install/TheFatRat
+		                    git clone https://github.com/Exploit-install/TheFatRat.git
 		                    ;;         
 		            A)      
 		                  clear
-                    	    	  figlet -c "Team Venom"
+                    	    	  figlet -c $Name
 		                  echo "<-------------------------------------------------------------------->"
 		                  echo "<---------------------Installing All Tools----------------------->"        
-		                    git clone https://github.com/warecrer/AndroRAT
-		                    git clone https://github.com/cSploit/android   
-		                    git clone https://github.com/Exploit-install/TheFatRat                  
+		                    git clone https://github.com/warecrer/AndroRAT.git
+		                    git clone https://github.com/cSploit/android.git   
+		                    git clone https://github.com/Exploit-install/TheFatRat.git                  
 		                    ;;     
 		            B)     
-		                    bash venom.sh
+		                    bash install.sh
 		                    ;;
 		            X)      
 		                    exit
@@ -535,7 +536,7 @@ case $option in
 			     ;;
 		  6)        
             clear
-            figlet -c "Team Venom"
+            figlet -c $Name
             echo "<----------------------------menu-------------------------->"
             echo "1)  SocialBox"
             echo "2)  BluForce-FB"
@@ -555,92 +556,92 @@ case $option in
             case $bchoice in
                     1)      
                     	    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------Installing  SocialBox------------------------------>"
-                            git clone https://github.com/Cyb0r9/SocialBox
+                            git clone https://github.com/Cyb0r9/SocialBox.git
                             ;;
                     2)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<---------------------Installing BluForce-FB------------------------->"
-                            git clone https://github.com/AngelSecurityTeam/BluForce-FB
+                            git clone https://github.com/AngelSecurityTeam/BluForce-FB.git
                             ;;
                     3)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing FaceBoom-------------------------->"
-                            git clone https://github.com/Oseid/FaceBoom
+                            git clone https://github.com/Oseid/FaceBoom.git
                             ;;     
                     4)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing Instagram------------------------->"
-                            git clone https://github.com/Pure-L0G1C/Instagram
+                            git clone https://github.com/Pure-L0G1C/Instagram.git
                             ;;  
                     5)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing Instabrute------------------------>"
-                            git clone https://github.com/xHak9x/instabrute
+                            git clone https://github.com/xHak9x/instabrute.git
                             ;; 
                      6)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<------------------Installing Brute-force-gmail---------------------->"
-                            git clone https://github.com/0xfff0800/Brute-force-gmail
+                            git clone https://github.com/0xfff0800/Brute-force-gmail.git
                             ;; 
                      7)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing GmailBruterV2--------------------->"
-                            git clone https://github.com/DEMON1A/GmailBruterV2
+                            git clone https://github.com/DEMON1A/GmailBruterV2.git
                             ;;  
                      8)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing WPBrute--------------------------->"
-                            git clone https://github.com/BlackXploits/WPBrute
+                            git clone https://github.com/BlackXploits/WPBrute.git
                             ;; 
                      9)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing Cpanel-Bruter--------------------->"
-                            git clone https://github.com/imadoxhunter/Cpanel-Bruter
+                            git clone https://github.com/imadoxhunter/Cpanel-Bruter.git
                             ;; 
                      10)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing RDP-Brute------------------------->"
-                            git clone https://github.com/TheDevFromKer/RDP-Brute
+                            git clone https://github.com/TheDevFromKer/RDP-Brute.git
                             ;;    
                         
                     A)      
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<---------------------Installing All Tools--------------------------->"        
-                            git clone https://github.com/Cyb0r9/SocialBox
-                            git clone https://github.com/AngelSecurityTeam/BluForce-FB  
-                            git clone https://github.com/Oseid/FaceBoom  
-                            git clone https://github.com/Pure-L0G1C/Instagram
-                            git clone https://github.com/xHak9x/instabrute
-                            git clone https://github.com/0xfff0800/Brute-force-gmail
-                            git clone https://github.com/DEMON1A/GmailBruterV2
-                            git clone https://github.com/BlackXploits/WPBrute
-                            git clone https://github.com/TheDevFromKer/RDP-Brute
+                            git clone https://github.com/Cyb0r9/SocialBox.git
+                            git clone https://github.com/AngelSecurityTeam/BluForce-FB.git  
+                            git clone https://github.com/Oseid/FaceBoom.git  
+                            git clone https://github.com/Pure-L0G1C/Instagram.git
+                            git clone https://github.com/xHak9x/instabrute.git
+                            git clone https://github.com/0xfff0800/Brute-force-gmail.git
+                            git clone https://github.com/DEMON1A/GmailBruterV2.git
+                            git clone https://github.com/BlackXploits/WPBrute.git
+                            git clone https://github.com/TheDevFromKer/RDP-Brute.git
                             ;;     
                     B)     
-                            bash venom.sh
+                            bash install.sh
                             ;;
                     X)      
                             exit
@@ -653,7 +654,7 @@ case $option in
 			;; 
 	7)        
             clear
-            figlet -c "Team Venom"
+            figlet -c $Name
             echo "<----------------------------menu-------------------------->"
             echo "1)  Shellphish"
             echo "2)  HiddenEye"
@@ -668,53 +669,53 @@ case $option in
             case $pchoice in
                     1)      
                     	    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------Installing  Shellphish----------------------------->"
-                            git clone https://github.com/rorizam323/shellphish
+                            git clone https://github.com/rorizam323/shellphish.git
                             ;;
                     2)
                     	    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<---------------------Installing HiddenEye--------------------------->"
-                            git clone https://github.com/DarkSecDevelopers/HiddenEye
+                            git clone https://github.com/DarkSecDevelopers/HiddenEye.git
                             ;;
                     3)
                     	    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing SocialFish------------------------>"
-                            git clone https://github.com/An0nUD4Y/SocialFish
+                            git clone https://github.com/An0nUD4Y/SocialFish.git
                             ;;     
                     4)
                     	    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing Zphisher-------------------------->"
-                            git clone https://github.com/htr-tech/zphisher
+                            git clone https://github.com/htr-tech/zphisher.git
                             ;;  
                     5)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing Blackeye-------------------------->"
-                            git clone https://github.com/An0nUD4Y/blackeye
+                            git clone https://github.com/An0nUD4Y/blackeye.git
                             ;; 
                         
                     A)      
                     	    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<---------------------Installing All Tools--------------------------->"        
-                            git clone https://github.com/rorizam323/shellphish
-                            git clone https://github.com/DarkSecDevelopers/HiddenEye  
-                            git clone https://github.com/An0nUD4Y/SocialFish 
-                            git clone https://github.com/htr-tech/zphisher
-                            git clone https://github.com/An0nUD4Y/blackeye
+                            git clone https://github.com/rorizam323/shellphish.git
+                            git clone https://github.com/DarkSecDevelopers/HiddenEye.git  
+                            git clone https://github.com/An0nUD4Y/SocialFish.git 
+                            git clone https://github.com/htr-tech/zphisher.git
+                            git clone https://github.com/An0nUD4Y/blackeye.git
                             ;;     
                     B)     
-                            bash venom.sh
+                            bash install.sh
                             ;;
                     X)      
                             exit
@@ -727,7 +728,7 @@ case $option in
 			;; 
 	8)        
             clear
-            figlet -c "Team Venom"
+            figlet -c $Name
             echo "<----------------------------menu-------------------------->"
             echo "1)  Ubuntu"
             echo "2)  Debian"
@@ -748,35 +749,35 @@ case $option in
             case $ochoice in
                     1)      
                     	    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------Installing  Ubuntu----------------------------->"
                             pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
                             ;;
                     2)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<---------------------Installing Debian--------------------------->"
                             pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Debian/debian.sh && bash debian.sh
                             ;;
                     3)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing Kali Linux------------------------>"
                             pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
                             ;;     
                     4)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-------------------Installing Kali NetHunter------------------------>"
                             pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Nethunter/nethunter.sh && bash nethunter.sh
                             ;;  
                     5)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing Backbox-------------------------->"
                             pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/BackBox/backbox.sh && bash backbox.sh
@@ -784,7 +785,7 @@ case $option in
                         
                     6)      
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<---------------------Installing Fedora------------------------------>"   
                             pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Fedora/fedora.sh && bash fedora.sh
@@ -792,7 +793,7 @@ case $option in
                     
                     7)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing Cent Os--------------------------->"
                             pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/CentOS/centos.sh && bash centos.sh
@@ -800,14 +801,14 @@ case $option in
                         
                     8)      
                     	    clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------Installing Opensuse Leap--------------------------->"        
                             pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/openSUSE/Leap/opensuse-leap.sh && bash opensuse-leap.sh
                       	    ;;
                     9)
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<----------------Installing OpenSUSE tumbleweed---------------------->"
                             pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/openSUSE/Tumbleweed/opensuse-tumbleweed.sh && bash opensuse-tumbleweed.sh
@@ -815,27 +816,27 @@ case $option in
                         
                     10)      
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<---------------------Installing Arch linux-------------------------->"   
                               pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Arch/armhf/arch.sh && bash arch.sh   
                               ;;
                     11)      
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<---------------------Installing Black Arch-------------------------->"
 pacman-key --init && pacman-key --populate archlinuxarm && pacman -Sy --noconfirm curl && curl -O https://blackarch.org/strap.sh && chmod +x strap.sh && ./strap.sh
                               ;;
                     12)      
                             clear
-                    	    figlet -c "Team Venom"
+                    	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<---------------------Installing Alpine------------------------------>"
                             pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Alpine/alpine.sh && bash alpine.sh
                               ;;
                     B)     
-                            bash venom.sh
+                            bash install.sh
                             ;;
                     X)      
                             exit
@@ -848,32 +849,33 @@ pacman-key --init && pacman-key --populate archlinuxarm && pacman -Sy --noconfir
 			;;
 	9)
 		clear
-figlet -c "Team Venom"
+figlet -c $Name
 echo "Loading.."
 echo "████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 20%	"
 sleep 1
 clear
-figlet -c "Team Venom"
+figlet -c $Name
 echo "Loading..."
 echo "████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 40%	"
 sleep 1
 clear
-figlet -c "Team Venom"
+figlet -c $Name
 echo "Loading..."
 echo "████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 60%	"
 sleep 1
 clear
-figlet -c "Team Venom"
+figlet -c $Name
 echo "Loading...."
 echo "████████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░ 80%	"
 sleep 1
 clear
-figlet -c "Team Venom"
+figlet -c $Name
 echo "Loading....."
 echo "████████████████████████████████████████████████████████████████████████████████ 100%     "
 sleep 1
 clear
-figlet -c "Team Venom"
+figlet -c $Name
+echo -e "\e[1;35m <--------------------ORIGINAL-------------------------------> \e[0m"
 echo -e "\e[1;35m <--------------------CREDITS-------------------------------> \e[0m"
 echo " "
 echo -e "\e[1;35m <--------------Follow us on Insta--------------------------> \e[0m"
@@ -894,65 +896,72 @@ echo -e "\e[1;35m <----------------------------------------------------------> \
 echo " "
 echo -e "\e[1;35m https://www.instagram.com/i.m.sahilkhan_ \e[0m"
 echo " "
-echo -e "\e[1;35m <----------------------------------------------------------> \e[0m	"             
+echo -e "\e[1;35m <----------------------------------------------------------> \e[0m	"
+echo -e "\e[1;35m <-------------------COMMUNITY------------------------------> \e[0m"
+echo -e "\e[1;35m <--------------------CREDITS-------------------------------> \e[0m"
+echo " "
+echo -e "\e[1;35m <-----------------NOT-TO-BE-NAMED--------------------------> \e[0m"
+echo " "
+echo -e "\e[1;35m <----------------------------------------------------------> \e[0m	"
+
 ;;
 A)
 clear
-figlet -c "Team Venom"
+figlet -c $Name
 echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 echo "<~~~~~~~~~~~~~~Installing All tools~~~~~~~~~~~~~~>"
-git clone https://github.com/rorizam323/shellphish
-git clone https://github.com/DarkSecDevelopers/HiddenEye  
-git clone https://github.com/An0nUD4Y/SocialFish 
-git clone https://github.com/htr-tech/zphisher
-git clone https://github.com/An0nUD4Y/blackeye
-git clone https://github.com/Cyb0r9/SocialBox
-git clone https://github.com/AngelSecurityTeam/BluForce-FB  
-git clone https://github.com/Oseid/FaceBoom  
-git clone https://github.com/Pure-L0G1C/Instagram
-git clone https://github.com/xHak9x/instabrute
-git clone https://github.com/0xfff0800/Brute-force-gmail
-git clone https://github.com/DEMON1A/GmailBruterV2
-git clone https://github.com/BlackXploits/WPBrute
-git clone https://github.com/TheDevFromKer/RDP-Brute
-git clone https://github.com/warecrer/AndroRAT
-git clone https://github.com/cSploit/android   
-git clone https://github.com/Exploit-install/TheFatRat  
-git clone https://github.com/trustedsec/social-engineer-toolkit
-git clone https://github.com/moxie0/sslstrip     
-git clone https://github.com/sneakerhax/PyPhisher
-git clone https://github.com/halojoy/PHP-SMTP-Mailer           
-git clone https://github.com/buckyroberts/Python-Packet-Sniffer      
-git clone https://github.com/AhMyth/AhMyth-Android-RAT    
-git clone https://github.com/jseidl/GoldenEye       
-git clone https://github.com/grafov/hulk           
-git clone https://github.com/Tuhinshubhra/CMSeeK            
-git clone https://github.com/rapid7/metasploit-framework            
-git clone https://github.com/TechnicalMujeeb/tmvenom           
-git clone https://github.com/hatRiot/zarp            
-git clone https://github.com/NullArray/AutoSploit
-git clone https://github.com/neoneggplant/EggShell              
-git clone https://github.com/Screetsec/Brutal 
-git clone https://github.com/Gameye98/OWScan
-git clone https://github.com/AndroBugs/AndroBugs_Framework
-git clone https://github.com/TechnicalMujeeb/TM-scanner
-git clone https://github.com/D4Vinci/Clickjacking-Tester
-git clone https://github.com/Dionach/CMSmap
-git clone https://github.com/bambish/ScanQLi
-git clone https://github.com/commixproject/commix
-git clone https://github.com/m4ll0k/WPSeku
-git clone https://github.com/threat9/routersploit
-git clone https://github.com/sullo/nikto
-git clone https://github.com/nahamsec/lazyrecon
-git clone https://github.com/Tuhinshubhra/RED_HAWK
-git clone https://github.com/Moham3dRiahi/Th3inspector
-git clone https://github.com/Moham3dRiahi/WPGrabInfo
-git clone https://github.com/GitHackTools/BillCipher
-git clone https://github.com/twelvesec/gasmask
-git clone https://github.com/ultrasecurity/webkiller
-git clone https://github.com/KnightSec-Official/FBI
-git clone https://github.com/hudacbr/D-TECT
-git clone https://github.com/issamelferkh/userrecon
+git clone https://github.com/rorizam323/shellphish.git
+git clone https://github.com/DarkSecDevelopers/HiddenEye.git  
+git clone https://github.com/An0nUD4Y/SocialFish.git 
+git clone https://github.com/htr-tech/zphisher.git
+git clone https://github.com/An0nUD4Y/blackeye.git
+git clone https://github.com/Cyb0r9/SocialBox.git
+git clone https://github.com/AngelSecurityTeam/BluForce-FB.git  
+git clone https://github.com/Oseid/FaceBoom.git  
+git clone https://github.com/Pure-L0G1C/Instagram.git
+git clone https://github.com/xHak9x/instabrute.git
+git clone https://github.com/0xfff0800/Brute-force-gmail.git
+git clone https://github.com/DEMON1A/GmailBruterV2.git
+git clone https://github.com/BlackXploits/WPBrute.git
+git clone https://github.com/TheDevFromKer/RDP-Brute.git
+git clone https://github.com/warecrer/AndroRAT.git
+git clone https://github.com/cSploit/android.git   
+git clone https://github.com/Exploit-install/TheFatRat.git  
+git clone https://github.com/trustedsec/social-engineer-toolkit.git
+git clone https://github.com/moxie0/sslstrip.git     
+git clone https://github.com/sneakerhax/PyPhisher.git
+git clone https://github.com/halojoy/PHP-SMTP-Mailer.git           
+git clone https://github.com/buckyroberts/Python-Packet-Sniffer.git      
+git clone https://github.com/AhMyth/AhMyth-Android-RAT.git    
+git clone https://github.com/jseidl/GoldenEye.git       
+git clone https://github.com/grafov/hulk.git           
+git clone https://github.com/Tuhinshubhra/CMSeeK.git            
+git clone https://github.com/rapid7/metasploit-framework.git            
+git clone https://github.com/TechnicalMujeeb/tmvenom.git           
+git clone https://github.com/hatRiot/zarp.git            
+git clone https://github.com/NullArray/AutoSploit.git
+git clone https://github.com/neoneggplant/EggShell.git              
+git clone https://github.com/Screetsec/Brutal.git 
+git clone https://github.com/Gameye98/OWScan.git
+git clone https://github.com/AndroBugs/AndroBugs_Framework.git
+git clone https://github.com/TechnicalMujeeb/TM-scanner.git
+git clone https://github.com/D4Vinci/Clickjacking-Tester.git
+git clone https://github.com/Dionach/CMSmap.git
+git clone https://github.com/bambish/ScanQLi.git
+git clone https://github.com/commixproject/commix.git
+git clone https://github.com/m4ll0k/WPSeku.git
+git clone https://github.com/threat9/routersploit.git
+git clone https://github.com/sullo/nikto.git
+git clone https://github.com/nahamsec/lazyrecon.git
+git clone https://github.com/Tuhinshubhra/RED_HAWK.git
+git clone https://github.com/Moham3dRiahi/Th3inspector.git
+git clone https://github.com/Moham3dRiahi/WPGrabInfo.git
+git clone https://github.com/GitHackTools/BillCipher.git
+git clone https://github.com/twelvesec/gasmask.git
+git clone https://github.com/ultrasecurity/webkiller.git
+git clone https://github.com/KnightSec-Official/FBI.git
+git clone https://github.com/hudacbr/D-TECT.git
+git clone https://github.com/issamelferkh/userrecon.git
 ;;
 
 X)
@@ -960,7 +969,7 @@ X)
 	;;
 
 *)
-	echo "I don't understand you"
+	echo "Remember you matter, be safe, and have a good day!"
 	exit
 	;;
                                                            
