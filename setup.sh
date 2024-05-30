@@ -1,12 +1,13 @@
 #!/usr/bin/bash
+Name=Hacking Tools Installer
 clear
-figlet -c "Team Venom"
+figlet -c $Name
 echo " "
 read -p "Do you want to continue installing setup? [y/n] : " answer
 case $answer in
 	y)
 		clear
-		figlet -c "Team Venom"
+		figlet -c $Name
 		apt-get update
 		apt-get upgrade
 		apt-get install figlet
