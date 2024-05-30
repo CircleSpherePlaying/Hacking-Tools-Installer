@@ -692,7 +692,7 @@ case $option in
                     	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing Blackeye-------------------------->"
-                            git clone https://github.com/An0nUD4Y/blackeye.git
+                            git clone https://github.com/EricksonAtHome/blackeye
                             ;; 
                         
                     A)      
@@ -703,7 +703,7 @@ case $option in
                             git clone https://github.com/D4rkS3c-Group/HiddenEyeReborn.git  
                             git clone https://github.com/An0nUD4Y/SocialFish.git 
                             git clone https://github.com/htr-tech/zphisher.git
-                            git clone https://github.com/An0nUD4Y/blackeye.git
+                            git clone https://github.com/EricksonAtHome/blackeye
                             ;;     
                     B)     
                             bash install.sh
@@ -904,7 +904,7 @@ echo "<~~~~~~~~~~~~~~Installing All tools~~~~~~~~~~~~~~>"
 git clone https://github.com/D4rkS3c-Group/HiddenEyeReborn.git  
 git clone https://github.com/An0nUD4Y/SocialFish.git 
 git clone https://github.com/htr-tech/zphisher.git
-git clone https://github.com/An0nUD4Y/blackeye.git
+git clone https://github.com/EricksonAtHome/blackeye
 git clone https://github.com/Cyb0r9/SocialBox.git
 git clone https://github.com/AngelSecurityTeam/BluForce-FB.git  
 git clone https://github.com/Oseid/FaceBoom.git  
