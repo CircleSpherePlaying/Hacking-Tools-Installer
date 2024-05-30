@@ -671,7 +671,7 @@ case $option in
                     	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<---------------------Installing HiddenEye--------------------------->"
-                            git clone https://github.com/DarkSecDevelopers/HiddenEye.git
+                            git clone https://github.com/D4rkS3c-Group/HiddenEyeReborn.git
                             ;;
                     2)
                     	    clear
@@ -700,7 +700,7 @@ case $option in
                     	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<---------------------Installing All Tools--------------------------->"        
-                            git clone https://github.com/DarkSecDevelopers/HiddenEye.git  
+                            git clone https://github.com/D4rkS3c-Group/HiddenEyeReborn.git  
                             git clone https://github.com/An0nUD4Y/SocialFish.git 
                             git clone https://github.com/htr-tech/zphisher.git
                             git clone https://github.com/An0nUD4Y/blackeye.git
@@ -901,7 +901,7 @@ clear
 figlet -c $Name
 echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 echo "<~~~~~~~~~~~~~~Installing All tools~~~~~~~~~~~~~~>"
-git clone https://github.com/DarkSecDevelopers/HiddenEye.git  
+git clone https://github.com/D4rkS3c-Group/HiddenEyeReborn.git  
 git clone https://github.com/An0nUD4Y/SocialFish.git 
 git clone https://github.com/htr-tech/zphisher.git
 git clone https://github.com/An0nUD4Y/blackeye.git
