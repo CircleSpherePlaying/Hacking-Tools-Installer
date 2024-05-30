@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-Name=Hacking Tools Installer
+Name="Hacking Tools Installer"
 clear
 figlet -c $Name
 echo " "
