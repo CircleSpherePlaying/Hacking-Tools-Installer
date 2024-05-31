@@ -238,7 +238,7 @@ case $option in
                     	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing WpSEku~~~~~~~~~~~>"
-				git clone https://github.com/m4ll0k/WPSeku.git
+				git clone https://github.com/swisskyrepo/Wordpresscan.git
 				;;
 			9)
 				clear
@@ -266,7 +266,7 @@ case $option in
 				git clone https://github.com/Dionach/CMSmap.git
 				git clone https://github.com/bambish/ScanQLi.git
 				git clone https://github.com/commixproject/commix.git
-				git clone https://github.com/m4ll0k/WPSeku.git
+				git clone https://github.com/swisskyrepo/Wordpresscan.git
 				git clone https://github.com/threat9/routersploit.git
 				git clone https://github.com/sullo/nikto.git
 				;;
@@ -939,7 +939,7 @@ git clone https://github.com/D4Vinci/Clickjacking-Tester.git
 git clone https://github.com/Dionach/CMSmap.git
 git clone https://github.com/bambish/ScanQLi.git
 git clone https://github.com/commixproject/commix.git
-git clone https://github.com/m4ll0k/WPSeku.git
+git clone https://github.com/swisskyrepo/Wordpresscan.git
 git clone https://github.com/threat9/routersploit.git
 git clone https://github.com/sullo/nikto.git
 git clone https://github.com/nahamsec/lazyrecon.git
