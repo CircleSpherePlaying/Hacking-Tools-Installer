@@ -587,7 +587,7 @@ case $option in
                     	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing Instabrute------------------------>"
-                            git clone https://github.com/xHak9x/instabrute.git
+                            git clone https://github.com/dark-player/instabrute.github.io
                             ;; 
                      6)
                             clear
@@ -634,7 +634,7 @@ case $option in
                             git clone https://github.com/AngelSecurityTeam/BluForce-FB.git  
                             git clone https://github.com/Oseid/FaceBoom.git  
                             git clone https://github.com/Pure-L0G1C/Instagram.git
-                            git clone https://github.com/xHak9x/instabrute.git
+                            git clone https://github.com/dark-player/instabrute.github.io
                             git clone https://github.com/0xfff0800/Brute-force-gmail.git
                             git clone https://github.com/DEMON1A/GmailBruterV2.git
                             git clone https://github.com/BlackXploits/WPBrute.git
@@ -909,7 +909,7 @@ git clone https://github.com/Cyb0r9/SocialBox.git
 git clone https://github.com/AngelSecurityTeam/BluForce-FB.git  
 git clone https://github.com/Oseid/FaceBoom.git  
 git clone https://github.com/Pure-L0G1C/Instagram.git
-git clone https://github.com/xHak9x/instabrute.git
+git clone https://github.com/dark-player/instabrute.github.io
 git clone https://github.com/0xfff0800/Brute-force-gmail.git
 git clone https://github.com/DEMON1A/GmailBruterV2.git
 git clone https://github.com/BlackXploits/WPBrute.git
