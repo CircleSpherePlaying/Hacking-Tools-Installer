@@ -135,7 +135,7 @@ case $option in
                     	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~~~~~Installing UserRecon~~~~~~~~~~~>"
-				git clone https://github.com/issamelferkh/userrecon.git
+				git clone https://github.com/wishihab/userrecon.git
 				;;
 			A)
 				clear
@@ -151,7 +151,7 @@ case $option in
 				git clone https://github.com/ultrasecurity/webkiller.git
 				git clone https://github.com/KnightSec-Official/FBI.git
 				git clone https://github.com/hudacbr/D-TECT.git
-				git clone https://github.com/issamelferkh/userrecon.git
+				git clone https://github.com/wishihab/userrecon.git
 				;;
 			B) 
 				bash install.sh
@@ -951,7 +951,7 @@ git clone https://github.com/twelvesec/gasmask.git
 git clone https://github.com/ultrasecurity/webkiller.git
 git clone https://github.com/KnightSec-Official/FBI.git
 git clone https://github.com/hudacbr/D-TECT.git
-git clone https://github.com/issamelferkh/userrecon.git
+git clone https://github.com/wishihab/userrecon.git
 ;;
 
 X)
