@@ -573,7 +573,7 @@ case $option in
                     	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing FaceBoom-------------------------->"
-                            git clone https://github.com/Oseid/FaceBoom.git
+                            git clone https://github.com/thehassantahir/Faceboom.git
                             ;;     
                     4)
                             clear
@@ -632,7 +632,7 @@ case $option in
                             echo "<---------------------Installing All Tools--------------------------->"        
                             git clone https://github.com/Cyb0r9/SocialBox.git
                             git clone https://github.com/AngelSecurityTeam/BluForce-FB.git  
-                            git clone https://github.com/Oseid/FaceBoom.git  
+                            git clone https://github.com/thehassantahir/Faceboom.git  
                             git clone https://github.com/Pure-L0G1C/Instagram.git
                             git clone https://github.com/dark-player/instabrute.github.io
                             git clone https://github.com/0xfff0800/Brute-force-gmail.git
@@ -907,7 +907,7 @@ git clone https://github.com/htr-tech/zphisher.git
 git clone https://github.com/EricksonAtHome/blackeye
 git clone https://github.com/Cyb0r9/SocialBox.git
 git clone https://github.com/AngelSecurityTeam/BluForce-FB.git  
-git clone https://github.com/Oseid/FaceBoom.git  
+git clone https://github.com/thehassantahir/Faceboom.git  
 git clone https://github.com/Pure-L0G1C/Instagram.git
 git clone https://github.com/dark-player/instabrute.github.io
 git clone https://github.com/0xfff0800/Brute-force-gmail.git
