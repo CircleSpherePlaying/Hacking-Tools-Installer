@@ -622,7 +622,7 @@ case $option in
                     	    figlet -c $Name
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------------Installing RDP-Brute------------------------->"
-                            git clone https://github.com/TheDevFromKer/RDP-Brute.git
+                            git clone https://github.com/R0ckNRolla/BruteDum.git
                             ;;    
                         
                     A)      
@@ -638,7 +638,7 @@ case $option in
                             git clone https://github.com/0xfff0800/Brute-force-gmail.git
                             git clone https://github.com/DEMON1A/GmailBruterV2.git
                             git clone https://github.com/BlackXploits/WPBrute.git
-                            git clone https://github.com/TheDevFromKer/RDP-Brute.git
+                            git clone https://github.com/R0ckNRolla/BruteDum.git
                             ;;     
                     B)     
                             bash install.sh
@@ -913,7 +913,7 @@ git clone https://github.com/dark-player/instabrute.github.io
 git clone https://github.com/0xfff0800/Brute-force-gmail.git
 git clone https://github.com/DEMON1A/GmailBruterV2.git
 git clone https://github.com/BlackXploits/WPBrute.git
-git clone https://github.com/TheDevFromKer/RDP-Brute.git
+git clone https://github.com/R0ckNRolla/BruteDum.git
 git clone https://github.com/warecrer/AndroRAT.git
 git clone https://github.com/cSploit/android.git   
 git clone https://github.com/Exploit-install/TheFatRat.git  
