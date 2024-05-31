@@ -98,7 +98,7 @@ case $option in
                     	    figlet -c $Name
 				echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 				echo "<~~~~~~~Installing BillCipher~~~~~~~~~~~>"
-				git clone https://github.com/GitHackTools/BillCipher.git
+				git clone https://github.com/bahatiphill/BillCipher.git
 				;;
 			6)
 				clear
@@ -146,7 +146,7 @@ case $option in
 				git clone https://github.com/Tuhinshubhra/RED_HAWK.git
 				git clone https://github.com/Moham3dRiahi/Th3inspector.git
 				git clone https://github.com/Moham3dRiahi/WPGrabInfo.git
-				git clone https://github.com/GitHackTools/BillCipher.git
+				git clone https://github.com/bahatiphill/BillCipher.git
 				git clone https://github.com/twelvesec/gasmask.git
 				git clone https://github.com/ultrasecurity/webkiller.git
 				git clone https://github.com/KnightSec-Official/FBI.git
@@ -946,7 +946,7 @@ git clone https://github.com/nahamsec/lazyrecon.git
 git clone https://github.com/Tuhinshubhra/RED_HAWK.git
 git clone https://github.com/Moham3dRiahi/Th3inspector.git
 git clone https://github.com/Moham3dRiahi/WPGrabInfo.git
-git clone https://github.com/GitHackTools/BillCipher.git
+git clone https://github.com/bahatiphill/BillCipher.git
 git clone https://github.com/twelvesec/gasmask.git
 git clone https://github.com/ultrasecurity/webkiller.git
 git clone https://github.com/KnightSec-Official/FBI.git
